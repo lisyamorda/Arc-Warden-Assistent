@@ -1,0 +1,23 @@
+﻿<Page x:Class="ArcWardenAssistent.Pages.Welcom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ArcWardenAssistent.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Welcom">
+
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Text="Инфо блок" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="18" FontFamily="Segoe UI Light" Foreground="{DynamicResource Brush1}"/>
+        <StackPanel Margin="10,45,10,10">
+            <TextBlock TextWrapping="Wrap" Text="1. Посети Синхронизацию" Foreground="{DynamicResource Brush1}" FontSize="16" FontFamily="Segoe UI Light"/>
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" Foreground="{DynamicResource Brush1}"><Run Text="В этом разделе настрой в соответсвтии с настрйоками DOTA если клавиша не определена в DOTA  то настрйо ее"/><Run Text=", все используумые скилы и артефакты должны быть  "/><LineBreak/><Run Text="в"/><Run Text=" "/><Run Text="квиккаст режиме"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Foreground="{DynamicResource Brush1}" FontSize="16" FontFamily="Segoe UI Light"><Run Text="2"/><Run Text=". "/><Run Text="Асистент не модифицирует игру"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" Foreground="{DynamicResource Brush1}"><Run Text="По этой причине данная програма не является читом, и не повлечет за собой "/><Run Text="VAC-"/><Run Text="Бан."/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Foreground="{DynamicResource Brush1}" FontSize="16" FontFamily="Segoe UI Light" Text="3.Рекомендации"/>
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" Foreground="{DynamicResource Brush1}"><Run Text="Ипользуйте только в тех случиях, когда вам лень учиться играть на арке, хочетса апнуть мрмрмр, или просто чтобы послушать муз"/><Run Text="ы"/><Run Text="ку"/><Run Text="!:3"/></TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Page>

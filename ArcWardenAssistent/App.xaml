@@ -1,0 +1,17 @@
+﻿<Application x:Class="ArcWardenAssistent.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ArcWardenAssistent"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <SolidColorBrush x:Key="Brush1" Color="#FFE5FFFE"/>
+        <SolidColorBrush x:Key="ButtonBorder" Color="#3F919191"/>
+        <LinearGradientBrush x:Key="BgButton" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#991C1D21" Offset="0"/>
+            <GradientStop Color="#99303436" Offset="1"/>
+        </LinearGradientBrush>
+        <SolidColorBrush x:Key="ButtonFore" Color="#FFE5FFFE"/>
+
+    </Application.Resources>
+</Application>
